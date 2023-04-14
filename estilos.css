@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+/* comienza el header */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(42, 42, 70);
+    z-index: 1;
+}
+nav a{
+    color: #ffffff;
+    font-size: 20px 5px;
+    padding: 5px 13px;
+    text-decoration: none;
+}
+.menu:hover{
+    padding: 5px 10px;
+    background-color: #6190f7;
+    color: #FFFFFF;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.logo img{
+    width: 200px;
+}
+/* finaliza el header */
+
+/* comienza el hero */
+.hero{
+    width: 100%;
+    margin: 0 auto;
+    padding: 150px 0;
+    height: 100vh;
+    background-image: url(fondito.jpg);
+    background-position-y: bottom;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero > form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 180px;
+}
+.hero p{
+    color: white;
+    padding: 15px 0;
+    font-size: 30px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+}
+.hero h2{
+    margin-top: 180px;
+    font-size: 55px;
+    font-weight: 600;
+    color:rgb(42, 42, 70);
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin-top: 5px;
+    height: 25px;
+    width: 340px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+}
+label{
+    margin: 5px;
+}
+.suscribir{
+    margin-top: 10px;
+    height: 40px;
+    width: 352px;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: solid;
+    background-color:black;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* finaliza el hero */
+/* comienza la sección visión */
+.about1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0;
+    width: 100%;
+    padding-left: 180px;
+    padding-right: 160px;
+}
+.about1 div{
+    width: 50%;
+}
+
+.about1{
+    background-image: url(vision2.jpg);
+    background-size: 50%;
+}
+
+.about1 div h2{
+    color: rgb(255, 255, 255);
+    flex-basis: 50%;
+    margin-left: 60px;
+    font-weight: 550;
+    font-size: 40px;
+    
+}
+.about1 div p{
+    font-size: 20px;
+    margin-left: 180px;
+}
+/* termina la sección vision */
+
+/* comienza el equipo */
+.team{
+    background-color: #448CA2;
+    height: 800px;
+    align-items: center;
+}
+.equipo h1{
+    padding-top: 60px;
+    color: #FFFFFF;
+    font-weight: 530;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.equipo h3{
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-around;
+}
+.imagenes{
+    margin-top: 60px;
+}
+.fotos img{
+    width: 250px;
+}
+.nombres{
+    margin-top: 20px
+}
+.nombres h1{
+    font-size: 30px;
+}
+.fotos p{
+    font-size: 20px;
+}
+
+.p1{
+    margin-left: 22px;
+}
+.p2{
+    margin-right: 10px;
+}
+.p3{
+    margin-right: 20px;
+} */
+.p4{
+    margin-right: 70px;
+}
+.p5{
+    margin-right: 50px;
+}
+.p6{
+    margin-right: 23px;
+}
+.jeremy:hover{
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+}
+.jamie:hover{
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+}
+.meysam:hover{
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+}
+/* termina el equipo */
+
+/* comienza nos respaldan */
+.sponsors{
+    background-color: #FFFDFD;
+    
+}
+.sponsors h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 550;
+    padding-top: 30px;
+    color: rgb(42, 42, 70);
+}
+.sp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0px 110px 0px 110px;
+}
+.sp img{
+    width: 75px;
+}
+.sp2 img{
+    width: 75px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+.sp2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 110px 0px 110px;
+}
+/* termina nos respaldan */
+/* comienza contacto */
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacto h1{ 
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 55px;
+}
+.contacto p{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.contacto{
+    background-image: url(contacto.jpg);
+    height: 600px;
+    width: 50%;
+}
+.contact .formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 180px;
+}
+.formulario{
+    width: 50%;
+    height: 600px;
+    background-color: rgb(42, 42, 70);
+    padding-top: 100px;
+    padding-left: 55px;
+}
+
+.formulario form input{
+    margin-top: 20px;
+    height: 30px;
+    width: 360px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+}
+.escribe form input{
+    height: 150px;
+}
+
+.enviar{
+    margin-top: 10px;
+    height: 40px;
+    width: 360px;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: solid;
+    background-color:black;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* comienza el footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 90px 0px 90px;
+    height: 18vh;
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+}
+.copy p{
+    margin-top: -10px;
+    margin-left: 23px;
+}
+
+/* termina el footer */
+/* termina la página */
