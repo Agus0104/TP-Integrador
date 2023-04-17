@@ -9,7 +9,17 @@
     background-repeat: no-repeat;
 }
 
+.cel{
+    display: none;
+}
+
 /* comienza el header */
+i{
+    display: none;
+}
+body{
+    background-color: #FFFDFD;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -50,12 +60,6 @@ nav a{
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-.hero > form{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    margin-left: 180px;
 }
 .hero p{
     color: white;
@@ -122,8 +126,8 @@ label{
     margin-left: 60px;
     font-weight: 550;
     font-size: 40px;
-    
 }
+
 .about1 div p{
     font-size: 20px;
     margin-left: 180px;
@@ -326,3 +330,294 @@ footer{
 
 /* termina el footer */
 /* termina la página */
+
+@media(max-width:768px){
+    /* comienza el header */
+    .nave{
+        display: none;
+    }
+    i{
+        display: block;
+        color: #FFFFFF;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px 0;
+        position: fixed;
+        width: 100vw;
+        top: 0px;
+        background-color: rgb(42, 42, 70);
+        z-index: 1;
+        height: 12vh;
+    }
+    .logo img{
+        width: 20vh;
+    }
+    /* termina el header */
+
+    /* comienza el hero */
+    .hero{
+        display: none;
+    }
+    .herocel{
+        display: block;
+    }
+    .herocel{
+        margin: 0 auto;
+        padding: 150px 0;
+        height: 100vh;
+        background-image: url(fondito.jpg);
+        background-position-y: bottom;
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .herocel p{
+        color: white;
+        font-size: 30px;
+        font-weight: 550;
+        display: flex;
+        justify-content: center;
+    }
+    .herocel h2{
+        margin-top: 80px;
+        font-size: 55px;
+        font-weight: 600;
+        color:rgb(42, 42, 70);
+        display: flex;
+        justify-content: center;
+    }
+    /* termina el hero */
+
+    /* comienza la sección visióncel */
+    .about1{
+        display: none;
+    }
+    .visioncel{
+        display: block;
+    }
+    .pcel{
+        display: block;
+    }
+    .visioncel{
+        display: flex;
+        justify-content: center;
+        padding-top: 8vh;
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .visioncel{
+        background-image: url(vision2.jpg);
+    }
+    
+    .visioncel h2{
+        color: rgb(255, 255, 255);
+        font-weight: 550;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    /* termina vicioncel */
+    /* comienza pcel */
+    .pcel{
+        padding-top: 2vh;
+    }
+    .pcel p{
+        font-weight: 550;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    /* termina pcel */
+    /* comienza el our team */
+    .team{
+        display: none;
+    }
+    .equip{
+        display: block;
+    }
+    .cel1{
+        display: block;
+    }
+    .equip{
+        background-color: #448CA2;
+        height: 20vh;
+        align-items: center;
+    }
+    .equip h1{
+        padding-top: 2vh;
+        color: #FFFFFF;
+        font-weight: 530;
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+    }
+    .equip h3{
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 1vh;
+        display: flex;
+        justify-content: center;
+    }
+    .cel1{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20vh;
+        background-color: #448CA2;
+        margin-top: -0.1vh;
+    }
+    .cel1 h1{
+        padding-left: 8vh;
+        padding-top: 2vh;
+    }
+    .cel1 .p1{
+        padding-left: 10vh;
+        font-size: 20px;
+    }
+    .cel1 .p4{
+        padding-left: 8.5vh;
+        font-size: 20px;
+    }
+    .cel1 a img{
+        width: 48vh;
+        justify-content: center;
+    }
+
+
+    .cel2{
+        display: block;
+    }
+
+    .cel2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20vh;
+        background-color: #448CA2;
+        margin-top: -0.1vh;
+    }
+    .cel2 h1{
+        padding-left: 10vh;
+        padding-top: 2vh;
+    }
+    .cel2 .p2{
+        padding-left: 8vh;
+        font-size: 20px;
+    }
+    .cel2 .p5{
+        padding-left: 12vh;
+        font-size: 20px;
+    }
+    .cel2 a img{
+        width: 48vh;
+        padding-top: 4vh;
+    }
+
+    .cel3{
+        display: block;
+    }
+
+    .cel3{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20vh;
+        background-color: #448CA2;
+        margin-top: -1px;
+    }
+    .cel3 h1{
+        padding-left: 6vh;
+        padding-top: 2vh;
+    }
+    .cel3 .p3{
+        padding-left: 12vh;
+        font-size: 20px;
+    }
+    .cel3 .p6{
+        padding-left: 11.6vh;
+        font-size: 20px;
+        padding-bottom: 2vh;
+    }
+    .cel3 a img{
+        width: 48vh;
+        padding-top: 40px;
+    }
+    /* termina el section our team */
+    /* empieza contact */
+    .contact{
+        display: none;
+    }
+    .cont{
+        display: block;
+    }
+    .cont{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 160px;
+    }
+    .cont h1{ 
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        font-weight: 500;
+        padding-top: 55px;
+    }
+    .cont p{
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 500;
+        padding-top: 10px;
+    }
+    .cont{
+        background-image: url(contacto.jpg);
+        height: 70vh;
+    }
+
+    .formu{
+        display: block;
+    }
+    .formu form{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin-left: 180px;
+    }
+    .formu{
+        height: 55vh;
+        background-color: rgb(42, 42, 70);
+        padding-top: 7vh;
+        padding-left: 5.4vh;
+    }
+    
+    .formu form input{
+        margin-top: 20px;
+        height: 3vh;
+        width: 40vw;
+        border-radius: 10px;
+        border-style: solid;
+        padding: 5px;
+    }
+    .escribe form input{
+        height: 150px;
+    }
+    
+    .enviar{
+        margin-top: 10px;
+        height: 40px;
+        width: 40vw;
+        border-radius: 10px;
+        padding: 5px;
+        border-style: solid;
+        background-color:black;
+        color:white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    /* termina contact */
+}
